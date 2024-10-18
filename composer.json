@@ -1,0 +1,45 @@
+{
+    "name": "glint/glint",
+    "description": "TALL-stack data tables",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ben Dempe",
+            "email": "dempeb18@gmail.com"
+        },
+        {
+            "name": "A.J. Krumholz",
+            "email": "aj@bluehousegroup.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.47|^11.0",
+        "livewire/livewire": "^3.0@beta"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.18",
+        "larastan/larastan": "^2.9",
+        "orchestra/testbench": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Glint\\Glint\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Glint\\Glint\\GlintServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
