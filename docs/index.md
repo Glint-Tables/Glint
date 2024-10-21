@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# Welcome to Glint
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Glint is a responsive table generation API for Laravel. The inspiration of the project began with
+us using Filament for a project. After running in repeated technical and performance issues with
+filament, we decided to create our own baggage-free DataTable engine. If you've used Filament, you
+will recognize most of the API. We tried to stick close to what we were familiar with simply for
+our own developer experience.
 
-## Commands
+Glint is definitely a work in progress, so if you have an suggestions, feel free to email the
+maintainers, [Ben](dempeb18@gmail.com) or [AJ](aj@bluehousegroup.com), or open a pull request. If
+you've used Glint for your project, let us know what you think!
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Where to start
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+1. [Learn](installation.md) how to add Glint to your project.
+2. [Start](quickstart.md) using Glint with our basic usage guide.

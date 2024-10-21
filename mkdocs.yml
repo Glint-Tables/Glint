@@ -13,4 +13,5 @@ theme:
     scheme: slate
 nav:
   - Home: index.md
+  - Installation: installation.md
   - Quick Start: quickstart.md
