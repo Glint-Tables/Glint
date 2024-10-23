@@ -22,4 +22,11 @@ class CheckboxFilter extends Filter
     {
         return $values ? 'True' : 'False';
     }
+
+    public function render()
+    {
+        return view('components.glint.filters.checkbox-filter', [
+            'filter' => $this,
+        ]);
+    }
 }
