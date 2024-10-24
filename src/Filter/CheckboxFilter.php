@@ -25,7 +25,7 @@ class CheckboxFilter extends Filter
 
     public function render()
     {
-        return view('components.glint.filters.checkbox-filter', [
+        return view('components.filters.checkbox-filter', [
             'filter' => $this,
         ]);
     }

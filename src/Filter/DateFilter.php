@@ -59,7 +59,7 @@ class DateFilter extends Filter
 
     public function render()
     {
-        return view('components.glint.filters.date-filter', [
+        return view('components.filters.date-filter', [
             'filter' => $this,
         ]);
     }
